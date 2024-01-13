@@ -1,0 +1,453 @@
+@media screen and (max-width: 768px) {
+
+    
+    header {
+        padding: 5% 0;
+        width: 100vw;
+    }
+
+    .mob-menu {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 7vw;
+        height: 7vw;
+        border: none;
+    }
+
+    .mob-menu svg {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    header .button {
+        order: 1;
+        font-size: 3.5vw;
+        height: 5vw;
+        gap: 2vw;
+        padding: 2.5vw 3vw;
+        width: 35vw;
+    }
+
+    .header-logo {
+        display: none;
+    }
+
+    .header-logo-mob {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-logo-mob img {
+        height: 13vw;
+    }
+
+    .header-nav {
+        order: 2;
+    }
+
+    header .header-nav ul {
+        flex-direction: column;
+        position: absolute;
+        align-items: flex-start;
+        background-color: #FBFBFB;
+        font-size: 4vw;
+        top: 0;
+        right: -66vw;
+        margin: 0;
+        width: 50vw;
+        height: 100vh;
+        padding: 8vw;
+        transition: right 0.3s;
+    }
+
+    #open-mob-menu:checked ~ ul {
+        right: 0;
+    }
+
+    .header-nav ul li a {
+        font-size: 4vw;
+    }
+
+    header .header-nav ul li:first-child {
+        align-self: flex-end;
+        margin-bottom: 3vw;
+    }
+
+    header .header-nav ul .submenu {
+        position: relative;
+        right: 0;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        box-shadow: none;
+        padding: 3vw 0 0 3vw;
+        gap: 3vw;
+    }
+
+    header .header-nav ul .submenu li:first-child {
+        align-self: flex-start;
+        margin: 0;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10vw;
+        margin: 15vw 0;
+    }
+
+    h2 {
+        font-size: 9vw;
+    }
+
+    .first {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .first img {
+        order: -1;
+    }
+
+    .first div {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10vw;
+    }
+
+    .first div h1 {
+        font-size: 10vw;
+    }
+
+    .first div h4 {
+        font-size: 5vw;
+    }
+
+    .first div a {
+        display: flex;
+        justify-content: center;
+        font-size: 4.5vw;
+        padding: 7vw;
+    }
+
+    .first div p {
+        font-size: 4vw;
+    }
+
+    .first .partners {
+        padding: 0 5vw;
+        overflow: hidden;
+    }
+
+    .first .partners li {
+        width: 30vw;
+    }
+
+    .second .main-p,
+    .third p,
+    .fourth p,
+    .fifth p,
+    .sixth p {
+        font-size: 5vw;
+        width: 100%;
+    }
+
+    .second li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second li h3 {
+        font-size: 7vw;
+        margin-top: 5vw;
+    }
+
+    .second li p {
+        font-size: 5vw;
+        margin-top: 3vw;
+    }
+
+    .second li img {
+        order: -1;
+    }
+
+    .third h2 {
+        padding: 0;
+    }
+
+    .slider {
+        height: 90vw;
+    }
+
+    .third .arrows {
+        width: 120%;
+    }
+
+    .arrows {
+        width: 100%;
+        height: 15vw;
+    }
+
+    .arrows button {
+        width: 15vw;
+    }
+
+    .slide {
+        min-width: 80vw;
+    }
+
+    .fourth p {
+        margin: 0;
+    }
+
+    .offers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .offer {
+        padding: 3vw 5vw;
+    }
+
+    .offer h3 {
+        font-size: 9vw;
+    }
+
+    .offer li {
+        font-size: 4vw;
+        gap: 12vw;
+        margin: 5vw 0;
+    }
+
+    .offer li:before {
+        font-size: 4.5vw;
+        width: 8vw;
+        height: 8vw;
+        margin-right: 5vw;
+    }
+
+    .offer p {
+        font-size: 3.5vw;
+        line-height: 7vw;
+    }
+
+    .offer a {
+        margin: 5vw 0;
+        width: 84%;
+        font-size: 5vw;
+        padding: 8%;
+    }
+
+    .fifth h2 {
+        width: 40%;
+    }
+
+    .fifth h3 {
+        font-size: 6vw;
+    }
+
+    .fifth ul {
+        flex-wrap: wrap;
+    }
+
+    .sixth {
+        margin: 30vw 0;
+    }
+    
+    .sixth * {
+        text-align: center;
+    }
+
+    .sixth a {
+        width: 84%;
+        margin: 0;
+        font-size: 5vw;
+        padding: 8%;
+    }
+
+    .sixth a img {
+        height: 6vw;
+        margin-right: 2vw;
+    }
+
+    .seventh .testimonial.slider {
+        height: 70vh;
+    }
+
+    .seventh .arrows {
+        left: 0;
+    }
+
+    .testimonial .slide {
+        max-width: none;
+        min-width: 80vw;
+        height: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonial .slide .short {
+        display: grid;
+        grid-template-columns: 15vw 3fr;
+        grid-template-rows: 1fr;
+    }
+
+    .testimonial .slide .short img {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+        width: 100%;
+        display: flex;
+        height: 100%;
+        padding: 0;
+    }
+
+    .testimonial .slide .short ul {
+        align-items: center;
+    }
+
+    .testimonial .slide .short li {
+        font-size: 3vw;
+        line-height: 1vw;
+        height: 5vw;
+        display: flex;
+        align-items: center;
+        padding: 2vw 2.5vw;
+    }
+
+    .testimonial .slide h3,
+    .testimonial .slide p {
+        padding: 0 10%;
+        font-size: 4vw;
+        width: 80%;
+        line-height: 6.3vw;
+    }
+
+    .testimonial .slide p {
+        font-size: 3.5vw;
+        line-height: 5.2vw;
+    }
+    
+    .spoiler {
+        position: relative;
+    }
+
+    .spoiler label {
+        font-size: 5vw;
+        padding: 3vw 7vw;
+        z-index: 2;
+    }
+
+    .spoiler svg {
+        width: 10vw;
+        height: 6vw;
+    }
+
+    .spoiler-content {
+        padding: 0 7vw;
+        top: -1vh;
+        z-index: 1;
+    }
+
+    .spoiler-content * {
+        margin-top: 0;
+        line-height: 3vw;
+        transition: all 0.3s;
+    }
+
+    .spoiler input:checked ~ label {
+        box-shadow: none;
+        padding-bottom: 0;
+    }
+
+    .spoiler input:checked ~ .spoiler-content {
+        max-height: 35vh;
+        padding: 15vw 7vw 3vw 7vw;
+        top: 0;
+        margin-top: -5vh;
+    }
+
+    .spoiler input:checked ~ .spoiler-content * {
+        line-height: normal;
+    }
+
+    .spoiler-content ul {
+        padding-left: 4vw;
+    }
+
+    footer {
+        grid-template-columns: 1fr 1fr;
+        width: 70vw;
+        padding: 5vw;
+        row-gap: 3vw;
+    }
+
+    footer h4, footer .footer-nav h4 {
+        font-size: 4.5vw;
+        margin: 3vw 0;
+    }
+
+    footer .footer-nav ul {
+        margin: 3vw 0;
+    }
+
+    footer .footer-nav ul li:nth-child(2) {
+        font-size: 4vw;
+    }
+
+    footer .footer-nav ul li svg {
+        width: 50vw;
+        height: 5vw;
+        margin-left: 5vw;
+    }
+
+    footer .address p,
+    footer .footer-nav * {
+        font-size: 3.5vw;
+    }
+
+    .footer-nav ul .submenu {
+        flex-direction: column;
+        width: 35vw;
+        align-items: flex-start;
+        gap: 3vw;
+        padding-top: 3vw;
+    }
+
+    .footer-nav ul .submenu li {
+        width: auto;
+    }
+
+    footer .links a {
+        width: 5vw;
+        height: 5vw;
+        padding: 3vw;
+        margin-right: 2vw;
+    }
+
+    footer img,
+    footer .social {
+        grid-column: 1 / 3;
+        padding: 0;
+    }
+
+    footer .footer-nav {
+        grid-column:  1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    footer .address {
+        grid-column: 2 / 3;
+    }
+
+    footer .address p {
+        margin: 3vw 0;
+    }
+
+
+}
+
